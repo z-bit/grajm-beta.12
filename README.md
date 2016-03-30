@@ -11,11 +11,8 @@
 <pre><code>
 $ git clone https://github.com/z-bit/grajm-beta.12.git
 $ cd grajm-beta.12
-$ npm install -y
-$ npm install jspm              //locally
+$ npm install 
 $ jspm install
-$ jspm install angular2 zone.js reflect-metadata
-$ 
 
 @keep installation, including jspm_packages & node_modules as base for projects
 $ live-server
@@ -26,7 +23,7 @@ $ live-server
 $ npm init -y
 $ npm install --save-dev jspm
 $ jspm init   // 7 x OK + typescript
-$ jspm install ts angular2 zone.js reflect-metadata
+$ jspm install angular2 zone.js reflect-metadata
  
 @edit system.config:
     System.config({

@@ -26,5 +26,8 @@
     "devDependencies": {
       "typescript": "npm:typescript@^1.6.2"
     }
+  },
+  "devDependencies": {
+    "jspm": "^0.16.31"
   }
 }
